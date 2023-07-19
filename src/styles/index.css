@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+/* GENERAL MAIN STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  max-width: 1920px;
-  font-family: "Open Sans", "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 1920px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
