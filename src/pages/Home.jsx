@@ -7,6 +7,9 @@ import Footer from '../components/Footer';
 // Importing assets
 import MainPicture from '../assets/image-accueil-fiatope.jpeg';
 
+// Importing CSS Home Page stylesheet
+import '../styles/Home.css';
+
 function Home() {
     return (
         <body>
