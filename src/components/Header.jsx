@@ -9,7 +9,9 @@ import Logo from '../assets/logo-fiatope-invest.png';
 function Header() {
     return (
         <header>
-            <img src={Logo} alt="logo de fiatope invest" />
+            <NavLink to="/">
+                <img src={Logo} alt="logo de fiatope invest" />
+            </NavLink>
             <ul>
                 <li>
                     <NavLink to="/">Accueil</NavLink>
