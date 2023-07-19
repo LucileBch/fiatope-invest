@@ -1,0 +1,40 @@
+/* FOOTER STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.fiatope-footer {
+    padding: 30px 0;
+    background-color: #180caf;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    border-top-left-radius: 100px 40px;
+    border-top-right-radius: 100px 40px;
+}
+
+.fiatope-footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.fiatope-footer-bloc {
+    display: flex;
+    align-items: center;
+    color: #180caf;
+    gap: 15px;
+}
+
+.fiatope-footer-icon {
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+.fiatope-footer-element {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fiatope-footer-element:hover {
+    text-decoration: underline;
+}
