@@ -2,6 +2,8 @@
 
 /* Desktop max-width 1920px */
 .fiatope-footer {
+    margin: auto;
+    max-width: 1920px;
     padding: 30px 0;
     background-color: #180caf;
     font-family: 'Roboto';
