@@ -1,0 +1,56 @@
+/* CSS HOME STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.fiatope-home-main {
+    margin: auto;
+    max-width: 1920px;
+}
+
+.fiatope-home-presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.fiatope-home-image {
+    width: 100%;
+}
+
+.fiatope-home-title {
+    color: #ffffff;
+    background-color: #180caf;
+    padding: 20px;
+    font-size: 80px;
+    font-family: 'Roboto';
+    border-top: solid white;
+}
+
+.fiatope-home-informations {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 400px;
+}
+
+.fiatope-home-informations h2 {
+    font-family: 'Roboto';
+    color: #180caf;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.fiatope-home-informations p {
+    font-size: 24px;
+}
+
+/* Not finished
+.informations-background {
+    background: #180caf;
+    filter: opacity(30%);
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    position: absolute;
+    right: -400px;
+    top: 1340px;
+}
+*/
