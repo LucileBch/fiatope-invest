@@ -1,0 +1,33 @@
+/* HEADER STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.fiatope-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.fiatope-header-logo {
+    width: 150px;
+}
+
+.fiatope-header-list {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.fiatope-link-inactive {
+    color: #777777;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.fiatope-link-active {
+    color: #180caf;
+    font-family: 'Roboto';
+    text-decoration: underline;
+}
