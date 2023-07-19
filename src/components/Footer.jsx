@@ -6,9 +6,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import { faHouseChimney } from '@fortawesome/free-solid-svg-icons';
 
-// Importing CSS Header stylesheet
+// Importing CSS Footer stylesheet
 import '../styles/Footer.css';
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
     return (
