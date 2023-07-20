@@ -40,3 +40,35 @@
 .fiatope-footer-element:hover {
     text-decoration: underline;
 }
+
+/* Tablet max-width 992px */
+@media screen and (max-width: 992px) {
+    .fiatope-footer {
+        padding: 20px 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .fiatope-footer-list {
+        gap: 50px;
+    }
+
+    .fiatope-footer-bloc {
+        gap: 10px;
+    }
+}
+
+/* Mobile max-width 768px */
+@media screen and (max-width: 768px) {
+    .fiatope-footer {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .fiatope-footer-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
