@@ -36,11 +36,21 @@
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 30px;
+    transform: translateX(-100%);
+    animation: slide-in 1.3s ease-out forwards;
 }
 
 .fiatope-home-informations p {
     text-align: justify;
     font-size: 24px;
+    transform: translateX(-100%);
+    animation: slide-in 1.3s ease-out forwards;
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 .informations-background {
