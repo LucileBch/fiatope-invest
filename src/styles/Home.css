@@ -18,18 +18,19 @@
 .fiatope-home-title {
     color: #ffffff;
     background-color: #180caf;
-    padding: 20px;
+    padding: 30px 50px;
     font-size: 80px;
     font-family: 'Roboto';
     border-top: solid white;
 }
 
 .fiatope-home-informations {
-    text-align: center;
-    margin: 30px 20px 400px 20px;
+    position: relative;
+    margin: 30px 50px 400px 50px;
 }
 
 .fiatope-home-informations h2 {
+    text-align: center;
     font-family: 'Roboto';
     color: #180caf;
     font-size: 50px;
@@ -38,10 +39,10 @@
 }
 
 .fiatope-home-informations p {
+    text-align: justify;
     font-size: 24px;
 }
 
-/* Not finished
 .informations-background {
     background: #180caf;
     filter: opacity(30%);
@@ -50,6 +51,5 @@
     border-radius: 100%;
     position: absolute;
     right: -400px;
-    top: 1340px;
+    top: -10px;
 }
-*/
