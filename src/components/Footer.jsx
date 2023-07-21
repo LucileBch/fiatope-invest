@@ -1,6 +1,6 @@
 // FOOTER COMPONENT
 
-// Importing Fontawesome for inserting icons
+// Importing Fontawesome and icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
@@ -9,6 +9,8 @@ import { faHouseChimney } from '@fortawesome/free-solid-svg-icons';
 // Importing CSS Footer stylesheet
 import '../styles/Footer.css';
 
+// Footer function allowing to display contacts element in a list
+// with direct links to phone, email and address
 function Footer() {
     return (
         <footer className="fiatope-footer">
