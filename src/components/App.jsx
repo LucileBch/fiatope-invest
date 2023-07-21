@@ -1,5 +1,6 @@
 // REACT APP ROUTER COMPONENT
 
+// Importing component for router implementation
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Importing pages to build the routes
