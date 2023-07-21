@@ -1,0 +1,59 @@
+/* NAVBAR STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.fiatope-header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fiatope-link-inactive {
+    color: #777777;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.fiatope-link-inactive:hover {
+    color: #180caf;
+}
+
+.fiatope-link-active {
+    color: #180caf;
+    font-family: 'Roboto';
+    text-decoration: underline;
+}
+
+/* Tablet max-width 1023px */
+@media screen and (max-width: 1023px) {
+    .fiatope-header-list {
+        font-size: 16px;
+        font-weight: 500;
+        gap: 15px;
+    }
+}
+
+/* Mobile max-width 767px */
+@media screen and (max-width: 767px) {
+    .fiatope-header-list {
+        font-size: 16px;
+        font-weight: 300;
+        flex-flow: column nowrap;
+        position: fixed;
+        background-color: #ffffff;
+        top: 0;
+        right: 0;
+        height: 250px;
+        width: 100%;
+        padding: 40px;
+        transform: translateX(0);
+        transition: all 0.5s ease-in-out;
+        z-index: 10;
+    }
+
+    .fiatope-header-list.closed {
+        transform: translateX(100%);
+    }
+}
