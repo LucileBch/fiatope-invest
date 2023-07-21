@@ -28,6 +28,7 @@ function Burger() {
                     </span>
                 )}
             </div>
+            {/* Adding Navbar component as a child */}
             <Navbar open={open} />
         </div>
     );
