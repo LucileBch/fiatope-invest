@@ -4,6 +4,9 @@
 .fiatope-footer {
     margin: auto;
     max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px 0;
     background-color: #180caf;
     font-family: 'Roboto';
@@ -15,8 +18,7 @@
 
 .fiatope-footer-list {
     display: flex;
-    justify-content: center;
-    gap: 150px;
+    gap: 100px;
 }
 
 .fiatope-footer-bloc {
@@ -41,12 +43,12 @@
     text-decoration: underline;
 }
 
-/* Tablet max-width 992px */
-@media screen and (max-width: 992px) {
+/* Tablet max-width 1023px */
+@media screen and (max-width: 1023px) {
     .fiatope-footer {
         padding: 20px 0;
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 14px;
+        font-weight: 300;
     }
 
     .fiatope-footer-list {
@@ -58,17 +60,16 @@
     }
 }
 
-/* Mobile max-width 768px */
-@media screen and (max-width: 768px) {
+/* Mobile max-width 767px */
+@media screen and (max-width: 767px) {
     .fiatope-footer {
-        font-size: 14px;
-        font-weight: 500;
+        border-top-left-radius: 120px 60px;
+        border-top-right-radius: 120px 60px;
     }
 
     .fiatope-footer-list {
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 5px;
     }
 }

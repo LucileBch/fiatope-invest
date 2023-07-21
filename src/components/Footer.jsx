@@ -51,7 +51,8 @@ function Footer() {
                         target="_blank"
                         className="fiatope-footer-element"
                     >
-                        23 Avenue Lombart, 92260 Fontenay-aux-Roses, France
+                        23 Avenue Lombart, <br />
+                        92260 Fontenay-aux-Roses, France
                     </a>
                 </li>
             </ul>
