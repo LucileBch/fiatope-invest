@@ -10,9 +10,10 @@ import MainPicture from '../assets/image-accueil-fiatope.jpeg';
 // Importing CSS Home Page stylesheet
 import '../styles/Home.css';
 
+// Home function displaying the home page
 function Home() {
     return (
-        <body>
+        <div>
             <Header />
             <main className="fiatope-home-main">
                 <section className="fiatope-home-presentation">
@@ -40,7 +41,7 @@ function Home() {
                 </section>
             </main>
             <Footer />
-        </body>
+        </div>
     );
 }
 
