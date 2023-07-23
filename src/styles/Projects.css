@@ -1,0 +1,15 @@
+/* CSS PROJECTS STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.project-main {
+    max-width: 1920px;
+    margin: auto;
+}
+
+h1 {
+    color: #180caf;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
