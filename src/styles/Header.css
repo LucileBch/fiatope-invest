@@ -11,6 +11,7 @@
     position: sticky;
     top: 0;
     background-color: #ffffff;
+    z-index: 1;
 }
 
 .fiatope-header-logo {
