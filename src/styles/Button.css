@@ -11,3 +11,8 @@
     border: none;
     padding: 15px 40px;
 }
+
+.button-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
