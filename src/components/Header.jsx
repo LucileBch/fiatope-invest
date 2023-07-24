@@ -7,7 +7,7 @@ import Burger from '../components/Burger.jsx';
 import '../styles/Header.css';
 
 // Importing assets
-import Logo from '../assets/logo-fiatope-invest.png';
+import Logo from '../assets/logo_fiatope_invest.png';
 
 // Header function displaying the header website with logo and navigation
 // Calling Burger component to manage the menu display according to conditions

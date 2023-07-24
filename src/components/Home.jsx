@@ -1,7 +1,7 @@
 // HOME SECTION COMPONENT
 
 // Importing assets
-import MainPicture from '../assets/image-accueil-fiatope.jpeg';
+import MainPicture from '../assets/image_accueil.jpeg';
 
 // Importing CSS Home Page stylesheet
 import '../styles/Home.css';
