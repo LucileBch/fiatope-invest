@@ -1,15 +1,20 @@
 /* CSS PROJECTS STYLE SHEET */
 
 /* Desktop max-width 1920px */
-.project-main {
+.projects-section {
     max-width: 1920px;
     margin: auto;
 }
 
-h1 {
-    color: #180caf;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: 500;
+.projects-section-title {
     text-align: center;
+    font-family: 'Roboto';
+    color: #180caf;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.projects-display {
+    margin: 0 50px;
 }
