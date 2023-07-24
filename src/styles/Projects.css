@@ -3,7 +3,7 @@
 /* Desktop max-width 1920px */
 .projects-section {
     max-width: 1920px;
-    margin: auto;
+    margin: auto auto 400px auto;
 }
 
 .projects-section-title {
@@ -12,9 +12,17 @@
     color: #180caf;
     font-size: 50px;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .projects-display {
     margin: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.project-image {
+    border-radius: 60px;
+    width: 100%;
 }

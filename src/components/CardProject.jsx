@@ -11,7 +11,7 @@ function CardProject({ content, image }) {
     return (
         <article className="project-article">
             {image}
-            <p>{content}</p>
+            <p className="project-article-content">{content}</p>
             {/* MISSING LINK FOR NOW */}
             <Button label="Découvrir" href="#" />
         </article>

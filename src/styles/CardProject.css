@@ -1,0 +1,20 @@
+/* CARDPROJECT STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.project-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(24, 12, 175, 0.4);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.project-article-content {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 40px 80px 40px;
+}
