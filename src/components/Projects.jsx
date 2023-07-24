@@ -13,7 +13,7 @@ import '../styles/Projects.css';
 function Projects() {
     return (
         <section id="section-projects" className="projects-section">
-            <h1 className="projects-section-title">Nos projets </h1>
+            <h2>Nos projets </h2>
             <div className="projects-display">
                 <CardProject
                     content="BIOANI est une jeune société agricole innovante, à fort impact social et environnemental, installé en Côte d’Ivoire, producteur de protéine pour animaux et de fertilisants naturels, le tout à partir de la larve de mouche soldat noir à fortes propriétés nutritives."
