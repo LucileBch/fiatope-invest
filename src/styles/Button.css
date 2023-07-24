@@ -1,0 +1,13 @@
+/* BUTTON STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.button-link {
+    background-color: #180caf;
+    border-radius: 100px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    padding: 15px 40px;
+}
