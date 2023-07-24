@@ -26,6 +26,7 @@ function Projects() {
                     }
                 />
             </div>
+            <div className="projects-background"></div>
         </section>
     );
 }
