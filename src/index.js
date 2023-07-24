@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 
 // Importing the router component
-import App from './components/App';
+import App from './pages/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
