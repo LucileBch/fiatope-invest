@@ -1,8 +1,5 @@
 // HEADER COMPONENT
 
-// Importing element to able the navigation between pages
-import { NavLink } from 'react-router-dom';
-
 // Importing Burger component
 import Burger from '../components/Burger.jsx';
 
@@ -13,16 +10,17 @@ import '../styles/Header.css';
 import Logo from '../assets/logo-fiatope-invest.png';
 
 // Header function displaying the header website with logo and navigation
+// Calling Burger component to manage the menu display according to conditions
 function Header() {
     return (
         <header className="fiatope-header">
-            <NavLink to="/">
+            <a href="#">
                 <img
                     src={Logo}
                     alt="logo de fiatope invest"
                     className="fiatope-header-logo"
                 />
-            </NavLink>
+            </a>
             <Burger />
         </header>
     );
