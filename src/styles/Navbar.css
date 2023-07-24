@@ -12,8 +12,8 @@
 
 .fiatope-link-inactive {
     color: #777777;
-    font-family: 'Roboto';
     text-decoration: none;
+    font-family: 'Roboto';
 }
 
 .fiatope-link-inactive:hover {
@@ -22,8 +22,8 @@
 
 .fiatope-link-active {
     color: #180caf;
-    font-family: 'Roboto';
     text-decoration: underline;
+    font-family: 'Roboto';
 }
 
 /* Tablet max-width 1023px */
