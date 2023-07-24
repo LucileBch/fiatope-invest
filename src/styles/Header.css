@@ -8,6 +8,9 @@
     margin: auto;
     max-width: 1920px;
     padding: 0px 50px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
 }
 
 .fiatope-header-logo {
