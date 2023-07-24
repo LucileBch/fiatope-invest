@@ -1,6 +1,7 @@
 // BUTTON COMPONENT
 
-// Importing
+// Importing CSS Button stylesheet
+import '../styles/Button.css';
 
 // Button function using props to be re-usable for all buttons
 function Button({ label, href, download, onClick }) {
@@ -10,14 +11,14 @@ function Button({ label, href, download, onClick }) {
         if (download) {
             return (
                 <a href={download}>
-                    <button>{label}</button>
+                    <button className="button-download">{label}</button>
                 </a>
             );
         }
         // If only "href" is provided, display a regular link
         return (
             <a href={href}>
-                <button>{label}</button>
+                <button className="button-link">{label}</button>
             </a>
         );
     }
