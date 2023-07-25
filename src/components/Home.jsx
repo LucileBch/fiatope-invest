@@ -2,9 +2,15 @@
 
 // Importing assets
 import MainPicture from '../assets/image_accueil.jpeg';
+import Light from '../assets/icone_ampoule.png';
+import Earth from '../assets/icone_environnement.png';
+import Balance from '../assets/icone_ethique.png';
 
 // Importing CSS Home Page stylesheet
 import '../styles/Home.css';
+
+// Importing component
+import CardValue from './CardValue';
 
 // Home function displaying the home section elements
 function Home() {
@@ -20,7 +26,7 @@ function Home() {
                     Nous faisons prospérer votre entreprise !
                 </h1>
             </div>
-            <div className="fiatope-home-informations">
+            <div className="fiatope-home-mission">
                 <h2>Notre mission</h2>
                 <p>
                     Nous sommes spécialisés dans le financement et
@@ -31,7 +37,7 @@ function Home() {
                     qu'un accompagnement personnalisé tout au long de leur
                     parcours.
                 </p>
-                <div className="informations-background"></div>
+                <div className="mission-background"></div>
             </div>
         </section>
     );

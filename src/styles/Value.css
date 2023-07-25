@@ -1,0 +1,44 @@
+/* CSS VALUE STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.section-value {
+    margin: auto auto 200px auto;
+    max-width: 1920px;
+}
+
+.section-value h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    color: #180caf;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.value-display {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Tablet max-width 1024px */
+@media screen and (max-width: 1024px) {
+    .section-value h2 {
+        font-size: 40px;
+    }
+}
+
+/* Mobile max-width 767px */
+@media screen and (max-width: 767px) {
+    .section-value {
+        margin-bottom: 100px;
+    }
+    .section-value h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .value-image {
+        width: 100px;
+    }
+}
