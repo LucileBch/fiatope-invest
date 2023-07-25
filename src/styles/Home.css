@@ -24,12 +24,12 @@
     border-top: solid white;
 }
 
-.fiatope-home-informations {
+.fiatope-home-mission {
     position: relative;
     margin: 30px 50px 400px 50px;
 }
 
-.fiatope-home-informations h2 {
+.fiatope-home-mission h2 {
     text-align: center;
     font-family: 'Roboto';
     color: #180caf;
@@ -40,7 +40,7 @@
     animation: slide-in 1.3s 0.5s ease-out forwards;
 }
 
-.fiatope-home-informations p {
+.fiatope-home-mission p {
     text-align: justify;
     font-size: 24px;
     transform: translateX(-100%);
@@ -53,7 +53,7 @@
     }
 }
 
-.informations-background {
+.mission-background {
     background: #180caf;
     filter: opacity(20%);
     width: 600px;
@@ -65,28 +65,28 @@
     transform: rotate(-90deg);
 }
 
-/* Tablet max-width 1023px */
-@media screen and (max-width: 1023px) {
+/* Tablet max-width 1024px */
+@media screen and (max-width: 1024px) {
     .fiatope-home-title {
         padding: 20px 40px;
         font-size: 60px;
     }
 
-    .fiatope-home-informations {
+    .fiatope-home-mission {
         margin-bottom: 100px;
     }
 
-    .fiatope-home-informations h2 {
+    .fiatope-home-mission h2 {
         font-size: 40px;
         font-weight: 500;
         margin-bottom: 20px;
     }
 
-    .fiatope-home-informations p {
+    .fiatope-home-mission p {
         font-size: 22px;
     }
 
-    .informations-background {
+    .mission-background {
         width: 300px;
         height: 150px;
         right: -125px;
@@ -100,12 +100,12 @@
         font-size: 40px;
     }
 
-    .fiatope-home-informations h2 {
+    .fiatope-home-mission h2 {
         font-size: 30px;
         margin-bottom: 20px;
     }
 
-    .fiatope-home-informations p {
+    .fiatope-home-mission p {
         font-size: 20px;
     }
 }

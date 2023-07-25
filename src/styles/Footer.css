@@ -43,8 +43,8 @@
     text-decoration: underline;
 }
 
-/* Tablet max-width 1023px */
-@media screen and (max-width: 1023px) {
+/* Tablet max-width 1024px */
+@media screen and (max-width: 1024px) {
     .fiatope-footer {
         padding: 20px 0;
         font-size: 14px;
