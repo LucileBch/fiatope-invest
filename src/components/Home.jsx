@@ -32,9 +32,9 @@ function Home() {
                     Nous sommes spécialisés dans le financement et
                     l'accompagnement de petites startups africaines à fort
                     potentiel de croissance. Nous avons pour objectif d'aider
-                    les porteurs de projets à réaliser leur vision en leur
-                    apportant un financement adapté à leur développement, ainsi
-                    qu'un accompagnement personnalisé tout au long de leur
+                    les porteurs de projets à réaliser leur vision en les aidant
+                    à trouver des financements adaptés à leur développement,
+                    ainsi qu'un accompagnement personnalisé tout au long de leur
                     parcours.
                 </p>
                 <div className="mission-background"></div>
