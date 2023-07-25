@@ -39,3 +39,43 @@
     border-radius: 50% / 100% 100% 0 0;
     transform: rotate(90deg);
 }
+
+/* Tablet max-width 1024px */
+@media screen and (max-width: 1024px) {
+    .projects-section h2 {
+        font-size: 40px;
+    }
+
+    .projects-background {
+        width: 400px;
+        height: 150px;
+        top: 600px;
+    }
+}
+
+/* Mobile max-width 767px */
+@media screen and (max-width: 767px) {
+    .projects-section {
+        margin-bottom: 100px;
+    }
+
+    .projects-section h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .projects-display {
+        margin: 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-image {
+        border-radius: 100px;
+    }
+
+    .projects-background {
+        width: 350px;
+        top: 400px;
+    }
+}

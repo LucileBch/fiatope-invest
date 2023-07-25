@@ -16,3 +16,10 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* Tablet max-width 1024px */
+@media screen and (max-width: 1024px) {
+    .button-link {
+        font-size: 20px;
+    }
+}
