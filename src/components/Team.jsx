@@ -1,0 +1,103 @@
+// TEAM SECTION COMPONENT
+
+// Importing assets
+import Picture1 from '../assets/photo_equipe_1.jpeg';
+import Picture2 from '../assets/photo_equipe_2.jpeg';
+import Picture3 from '../assets/photo_equipe_3.jpeg';
+import Picture4 from '../assets/photo_equipe_4.jpeg';
+import Picture5 from '../assets/photo_equipe_5.jpeg';
+import Picture6 from '../assets/photo_equipe_6.jpeg';
+import Picture7 from '../assets/photo_equipe_7.jpeg';
+import Picture8 from '../assets/photo_equipe_8.jpeg';
+import Picture9 from '../assets/photo_equipe_9.jpeg';
+
+// Importing CSS Team stylesheet
+import '../styles/Team.css';
+
+// Team function displaying paragraphs and team pictures
+function Team() {
+    return (
+        <section id="section-nous">
+            <div className="team-informations">
+                <h2>Qui sommes nous ?</h2>
+                <p>
+                    FIATOPE INVEST est né de la plateforme de financement
+                    participatif par dons, Fiatope, qui a été lancée en 2015 et
+                    qui continue d'être très active. À ce jour, nous avons
+                    financé 25 projets dans 8 pays, avec un impact total
+                    dépassant les 110 000 euros. Cependant, nous avons constaté
+                    que certaines personnes ne souhaitent pas uniquement faire
+                    des dons, mais préfèrent investir dans des projets à valeur
+                    ajoutée et obtenir un retour sur leur investissement.
+                </p>
+            </div>
+            <div className="team-solution">
+                <h2>Notre solution</h2>
+                <p className="solution-first-paragraph">
+                    Notre solution consiste à investir dans des petites et
+                    moyennes entreprises africaines solides et prometteuses.
+                    Nous avons la grande ambition de mobiliser la diaspora
+                    africaine, les épargnants européens et nord-américains ainsi
+                    que les personnes locales pour en faire des acteurs
+                    financiers majeurs capables de catalyser les économies
+                    africaines.
+                </p>
+                <p>
+                    L'investissement dans les PME et les start-ups reste un défi
+                    que les pays africains n'adressent pas de manière adéquate,
+                    que ce soit du côté des gouvernements, du secteur financier
+                    ou du secteur privé. De plus, les fonds d'investissement
+                    présents sur le continent préfèrent financer des tickets
+                    plus élevés par rapport aux besoins de la plupart des PME et
+                    start-ups. Enfin, les micro-finances proposent des solutions
+                    limitées pour répondre aux besoins de levée de fonds des
+                    entrepreneurs. C'est ici que FIATOPE INVEST souhaite combler
+                    ce vide.
+                </p>
+            </div>
+            <div className="team-pictures">
+                <h2>Notre équipe ?</h2>
+                <div className="pictures-people">
+                    <img
+                        src={Picture1}
+                        alt="photo du premier membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture2}
+                        alt="photo du deuxième membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture3}
+                        alt="photo du troisème membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture4}
+                        alt="photo du quatrième membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture5}
+                        alt="photo du cinquième membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture6}
+                        alt="photo du sixième membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture7}
+                        alt="photo du septième membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture8}
+                        alt="photo du huitième membre de l'équipe"
+                    ></img>
+                    <img
+                        src={Picture9}
+                        alt="photo du neuvième membre de l'équipe"
+                    ></img>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default Team;

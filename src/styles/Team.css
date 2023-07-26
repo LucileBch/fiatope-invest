@@ -1,0 +1,90 @@
+/* CSS TEAM STYLE SHEET */
+
+/* Desktop max-width 1920px */
+#section-nous {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.team-informations,
+.team-solution,
+.team-pictures {
+    text-align: center;
+    margin: 80px 20px;
+}
+
+.team-informations h2,
+.team-solution h2,
+.team-pictures h2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.team-informations p,
+.team-solution p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.solution-first-paragraph {
+    margin-bottom: 30px;
+}
+
+.pictures-people img {
+    width: 100%;
+    height: 310px;
+}
+
+.pictures-people {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin: 30px 50px;
+}
+
+/* Tablet max-width 1024px */
+@media screen and (max-width: 1024px) {
+    .team-informations h2,
+    .team-solution h2,
+    .team-pictures h2 {
+        font-size: 22px;
+    }
+
+    .team-informations p,
+    .team-solution p {
+        font-size: 16px;
+    }
+
+    .pictures-people img {
+        height: 200px;
+    }
+}
+
+/* Mobile max-width 767px */
+@media screen and (max-width: 767px) {
+    .team-informations h2,
+    .team-solution h2,
+    .team-pictures h2 {
+        font-size: 20px;
+    }
+
+    .team-informations p,
+    .team-solution p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .pictures-people {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 20px;
+    }
+
+    .pictures-people img {
+        height: 300px;
+    }
+}
