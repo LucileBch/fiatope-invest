@@ -7,6 +7,8 @@ import Button from '../components/Button';
 import Angel1 from '../assets/angels1.jpg';
 //  /!\ HERE IMPORT BROCHURE DOCUMENT /!\
 import Brochure from '../assets/brief.pdf';
+import Angel2 from '../assets/angels2.jpg';
+import Graphique from '../assets/graphique.png';
 
 // Importing CSS stylesheet
 import '../styles/Angels.css';
@@ -91,8 +93,56 @@ function Angels() {
                 label="Télécharger la brochure"
                 href={Brochure}
                 download={Brochure}
-            />{' '}
+            />
             {/* CHANGE HERE THE RIGHT DOCUMENT */}
+            <div className="angels-steps">
+                <img
+                    src={Angel2}
+                    alt="photo de trois femmes faisant du crochet"
+                    className="angels-steps-img"
+                />
+                <h3>
+                    Chez Fiatope Invest, nous vous accompagnons vers une levée
+                    de fonds participative !
+                </h3>
+                <p>
+                    Nous avons un programme de préparation à l'investissement
+                    dont l'objectif est d'emmener votre entreprise vers un
+                    financement participatif (en capital) en 08 étapes :
+                </p>
+                <img
+                    src={Graphique}
+                    alt="graphique représentant les étapes du processus de préparation à l'investissement"
+                    className="angels-steps-graphique"
+                />
+                <p>
+                    Nous mettons à votre disposition notre vaste réseau de
+                    partenaires et d'investisseurs notamment à travers Fiatope
+                    Angels.
+                </p>
+            </div>
+            <div className="angels-criterias">
+                <h2>Critères de sélection</h2>
+                <div className="goals">
+                    <p>Fort impact social et environnemental.</p>
+                    <p>Entreprise innovante et en amorçage.</p>
+                    <p>Solide modèle économique.</p>
+                    <p>Très bonne connaissance du secteur.</p>
+                    <p>Beau Profil de l’entrepreneur et de l’équipe.</p>
+                    <p>Développement commercial soutenu.</p>
+                </div>
+            </div>
+            <Button
+                label="Télécharger la brochure"
+                href={Brochure}
+                download={Brochure}
+            />
+            <p className="pitch">
+                Envoyer nous votre pitch de présentation :
+                <a href="mailto:contact.invest@fiatope.com">
+                    contact.invest@fiatope.com
+                </a>
+            </p>
         </section>
     );
 }

@@ -13,7 +13,8 @@
 
 .angels-us,
 .angels-goals,
-.angels-reasons {
+.angels-reasons,
+.angels-criterias {
     text-align: center;
     margin: 20px 20px 80px 20px;
 }
@@ -61,6 +62,54 @@
     margin-bottom: 20px;
 }
 
+.angels-steps {
+    margin-bottom: 200px;
+    border-bottom: solid 30px rgba(24, 12, 175, 0.1);
+}
+
+.angels-steps-img {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.angels-steps h3 {
+    color: #ffffff;
+    background-color: #180caf;
+    padding: 30px 50px;
+    font-size: 40px;
+    font-family: 'Roboto';
+}
+
+.angels-steps p {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.angels-steps-graphique {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.pitch {
+    color: #ffffff;
+    background-color: #180caf;
+    padding: 30px 50px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 150px;
+}
+
+.pitch a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pitch a:hover {
+    text-decoration: underline;
+}
+
 /* Tablet max-width 1024px */
 @media screen and (max-width: 1024px) {
     #section-angels h2 {
@@ -89,6 +138,18 @@
         line-height: 30px;
         font-size: 16px;
     }
+
+    .angels-steps h3 {
+        font-size: 30px;
+    }
+
+    .angels-steps p {
+        font-size: 20px;
+    }
+
+    .pitch {
+        font-size: 22px;
+    }
 }
 
 /* Mobile max-width 767px */
@@ -109,9 +170,34 @@
     .goals {
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .goals p {
+        font-size: 16px;
+        padding: 20px;
+    }
     .angels-reasons ul {
         line-height: 30px;
         font-size: 14px;
+    }
+
+    .angels-steps {
+        margin-bottom: 100px;
+    }
+
+    .angels-steps h3 {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .angels-steps p {
+        font-size: 16px;
+    }
+
+    .angels-steps-graphique {
+        width: 90%;
+        margin: 30px 0;
+    }
+
+    .pitch {
+        font-size: 16px;
     }
 }
