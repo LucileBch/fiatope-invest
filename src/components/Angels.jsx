@@ -6,7 +6,8 @@ import Button from '../components/Button';
 // Importing assets
 import Angel1 from '../assets/angels1.jpg';
 //  /!\ HERE IMPORT BROCHURE DOCUMENT /!\
-import Brochure from '../assets/brief.pdf';
+import BrochureAngels from '../assets/brochure_fiatope_angels.pdf';
+import BrochureFunding from '../assets/brochure_funding_readiness.pdf';
 import Angel2 from '../assets/angels2.jpg';
 import Graphique from '../assets/graphique.png';
 
@@ -91,10 +92,9 @@ function Angels() {
             </div>
             <Button
                 label="Télécharger la brochure"
-                href={Brochure}
-                download={Brochure}
+                href={BrochureAngels}
+                download={BrochureAngels}
             />
-            {/* CHANGE HERE THE RIGHT DOCUMENT */}
             <div className="angels-steps">
                 <img
                     src={Angel2}
@@ -134,8 +134,8 @@ function Angels() {
             </div>
             <Button
                 label="Télécharger la brochure"
-                href={Brochure}
-                download={Brochure}
+                href={BrochureFunding}
+                download={BrochureFunding}
             />
             <p className="pitch">
                 Envoyer nous votre pitch de présentation :
