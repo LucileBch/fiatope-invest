@@ -1,0 +1,43 @@
+/* CSS PARNERS STYLE SHEET */
+
+/* Desktop max-width 1920px */
+.section-partners {
+    max-width: 1920px;
+    margin: auto auto 100px auto;
+    text-align: center;
+}
+
+.section-partners h2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.partners-logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 80px;
+}
+
+/* Tablet max-width 1024px */
+@media screen and (max-width: 1024px) {
+    .section-partners h2 {
+        font-size: 22px;
+    }
+
+    .partners-logo img {
+        width: 80%;
+    }
+}
+
+/* Mobile max-width 767px */
+@media screen and (max-width: 767px) {
+    .section-partners h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}

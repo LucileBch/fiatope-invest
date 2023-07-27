@@ -7,6 +7,7 @@ import Value from '../components/Value';
 import Projects from '../components/Projects';
 import Team from '../components/Team';
 import Angels from '../components/Angels';
+import Partners from '../components/Partners';
 import Footer from '../components/Footer';
 
 // function defining the tree of routes
@@ -19,6 +20,7 @@ function App() {
             <Projects />
             <Team />
             <Angels />
+            <Partners />
             <Footer />
         </div>
     );
