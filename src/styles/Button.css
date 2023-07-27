@@ -1,6 +1,7 @@
 /* BUTTON STYLE SHEET */
 
 /* Desktop max-width 1920px */
+.button-download,
 .button-link {
     background-color: #180caf;
     border-radius: 100px;
@@ -9,9 +10,17 @@
     font-size: 30px;
     font-weight: 500;
     border: none;
+}
+
+.button-download {
+    padding: 30px 40px;
+}
+
+.button-link {
     padding: 15px 40px;
 }
 
+.button-download:hover,
 .button-link:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -19,6 +28,7 @@
 
 /* Tablet max-width 1024px */
 @media screen and (max-width: 1024px) {
+    .button-download,
     .button-link {
         font-size: 20px;
     }
