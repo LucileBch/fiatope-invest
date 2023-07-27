@@ -1,5 +1,8 @@
 // TEAM SECTION COMPONENT
 
+// Importing component
+import CardTeam from './CardTeam';
+
 // Importing assets
 import Picture1 from '../assets/photo_equipe_1.jpeg';
 import Picture2 from '../assets/photo_equipe_2.jpeg';
@@ -58,41 +61,69 @@ function Team() {
             <div className="team-pictures">
                 <h2>Notre équipe ?</h2>
                 <div className="pictures-people">
-                    <img
-                        src={Picture1}
-                        alt="photo du premier membre de l'équipe"
+                    <CardTeam
+                        image={<img src={Picture1} alt="photo d'Eric Ntonfo" />}
+                        name="Eric Ntonfo"
                     />
-                    <img
-                        src={Picture2}
-                        alt="photo du deuxième membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img src={Picture2} alt="photo de Gaétane Tiako" />
+                        }
+                        name="Gaétane Tiako"
                     />
-                    <img
-                        src={Picture3}
-                        alt="photo du troisème membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img src={Picture3} alt="photo de Jessica Dogbé" />
+                        }
+                        name="Jessica Dogbé"
                     />
-                    <img
-                        src={Picture4}
-                        alt="photo du quatrième membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img
+                                src={Picture4}
+                                alt="photo de Sarah Delplanque"
+                            />
+                        }
+                        name="Sarah Delplanque"
                     />
-                    <img
-                        src={Picture5}
-                        alt="photo du cinquième membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img
+                                src={Picture5}
+                                alt="photo de Benjamin Ngongang"
+                            />
+                        }
+                        name="Benjamin Ngongang"
                     />
-                    <img
-                        src={Picture6}
-                        alt="photo du sixième membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img src={Picture6} alt="photo de Teddy Kossoko" />
+                        }
+                        name="Teddy Kossoko"
                     />
-                    <img
-                        src={Picture7}
-                        alt="photo du septième membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img src={Picture7} alt="photo de Neia Monteiro" />
+                        }
+                        name="Neia Monteiro"
                     />
-                    <img
-                        src={Picture8}
-                        alt="photo du huitième membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img
+                                src={Picture8}
+                                alt="photo de Youssouf Camara"
+                            />
+                        }
+                        name="Youssouf Camara"
                     />
-                    <img
-                        src={Picture9}
-                        alt="photo du neuvième membre de l'équipe"
+                    <CardTeam
+                        image={
+                            <img
+                                src={Picture9}
+                                alt="photo de Laurence Elong Mbassi"
+                            />
+                        }
+                        name="Laurence Elong Mbassi"
                     />
                 </div>
             </div>

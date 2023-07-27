@@ -10,7 +10,7 @@
 .team-solution,
 .team-pictures {
     text-align: center;
-    margin: 80px 20px;
+    margin: 150px 20px;
 }
 
 .team-informations h2,
@@ -35,15 +35,15 @@
 
 .pictures-people img {
     width: 100%;
-    height: 310px;
+    height: 100%;
     object-fit: cover;
 }
 
 .pictures-people {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
-    margin: 30px 50px;
+    gap: 100px 50px;
+    margin: 30px 20px;
 }
 
 /* Tablet max-width 1024px */
@@ -58,14 +58,15 @@
     .team-solution p {
         font-size: 16px;
     }
-
-    .pictures-people img {
-        height: 200px;
-    }
 }
 
 /* Mobile max-width 767px */
 @media screen and (max-width: 767px) {
+    .team-pictures {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .team-informations h2,
     .team-solution h2,
     .team-pictures h2 {
@@ -81,11 +82,6 @@
     .pictures-people {
         display: flex;
         flex-direction: column;
-        gap: 30px;
         margin: 30px 20px;
-    }
-
-    .pictures-people img {
-        height: 300px;
     }
 }
