@@ -10,7 +10,7 @@ function Button({ label, href, download, onClick }) {
         // If prop "download" is also provided, display a button in <a> tag, allowing to download the linked document
         if (download) {
             return (
-                <a href={download}>
+                <a href={download} download>
                     <button className="button-download">{label}</button>
                 </a>
             );

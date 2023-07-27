@@ -61,39 +61,39 @@ function Team() {
                     <img
                         src={Picture1}
                         alt="photo du premier membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture2}
                         alt="photo du deuxième membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture3}
                         alt="photo du troisème membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture4}
                         alt="photo du quatrième membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture5}
                         alt="photo du cinquième membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture6}
                         alt="photo du sixième membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture7}
                         alt="photo du septième membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture8}
                         alt="photo du huitième membre de l'équipe"
-                    ></img>
+                    />
                     <img
                         src={Picture9}
                         alt="photo du neuvième membre de l'équipe"
-                    ></img>
+                    />
                 </div>
             </div>
         </section>
