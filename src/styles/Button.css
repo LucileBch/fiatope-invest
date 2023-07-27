@@ -2,7 +2,8 @@
 
 /* Desktop max-width 1920px */
 .button-download,
-.button-link {
+.button-link-project,
+.button-link-partner {
     background-color: #180caf;
     border-radius: 100px;
     color: #ffffff;
@@ -12,16 +13,18 @@
     border: none;
 }
 
-.button-download {
+.button-download,
+.button-link-partner {
     padding: 30px 40px;
 }
 
-.button-link {
+.button-link-project {
     padding: 15px 40px;
 }
 
 .button-download:hover,
-.button-link:hover {
+.button-link-project:hover,
+.button-link-partner:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -29,7 +32,13 @@
 /* Tablet max-width 1024px */
 @media screen and (max-width: 1024px) {
     .button-download,
-    .button-link {
+    .button-link-project,
+    .button-link-partner {
         font-size: 20px;
+    }
+
+    .button-download,
+    .button-link-partner {
+        padding: 20px;
     }
 }
