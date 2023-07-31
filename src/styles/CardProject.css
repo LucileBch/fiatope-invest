@@ -11,6 +11,7 @@
     border-bottom-left-radius: 300px;
     border-bottom-right-radius: 300px;
     position: relative;
+    width: 70%;
 }
 
 .project-article h3 {
@@ -29,6 +30,10 @@
 
 /* Tablet max-width 1024px */
 @media screen and (max-width: 1024px) {
+    .project-article {
+        width: 100%;
+    }
+
     .project-article h3 {
         font-size: 20px;
     }
