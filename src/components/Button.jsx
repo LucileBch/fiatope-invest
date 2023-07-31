@@ -19,7 +19,7 @@ function Button({ label, href, download, onClick, section }) {
         }
         // If only "href" is provided, display a regular link
         return (
-            <a href={href}>
+            <a href={href} target="_blank">
                 <button className={buttonLink}>{label}</button>
             </a>
         );

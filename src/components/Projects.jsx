@@ -32,6 +32,7 @@ function Projects() {
                             alt="photo de larve de mouche soldat noir"
                         />
                     }
+                    link="https://bioani-farm.com/"
                 />
                 <CardProject
                     title="Zoe industry"
@@ -40,9 +41,10 @@ function Projects() {
                         <img
                             className="project-image"
                             src={Zoe}
-                            alt="photo de deux hommes tenant des boites de la marque zoe"
+                            alt="photo de deux hommes tenant des boites de thé de la marque zoe"
                         />
                     }
+                    link="https://www.facebook.com/people/Th%C3%A9-zo%C3%A9/100063656618776/"
                 />
                 <CardProject
                     title="Agrodeogracias"
@@ -66,6 +68,7 @@ function Projects() {
                             alt="photo d'articles d'artisanat'"
                         />
                     }
+                    link="https://www.lamaisonfenel.com/"
                 />
                 <CardProject
                     title="Madame Rabe"
@@ -77,6 +80,7 @@ function Projects() {
                             alt="photo de piment avec le logo de madame rabe"
                         />
                     }
+                    link="https://www.facebook.com/mumrabe/?_rdc=2&_rdr"
                 />
                 <CardProject
                     title="Arsa Properties"
@@ -88,6 +92,7 @@ function Projects() {
                             alt="photo d'épices"
                         />
                     }
+                    link="https://arsaproperties.com/"
                 />
                 <CardProject
                     title="Digital mobility"
@@ -100,6 +105,7 @@ function Projects() {
                             alt="photo deux hommes sur leur moto"
                         />
                     }
+                    link="https://digitalmobility.cm/"
                 />
                 <CardProject
                     title="Nowell traiteur"
@@ -112,6 +118,7 @@ function Projects() {
                             alt="photo d'un plate de salade, de fruits avec le logo de nowell traiteur"
                         />
                     }
+                    link="https://nowelli.com/"
                 />
             </div>
             <div className="projects-background"></div>
