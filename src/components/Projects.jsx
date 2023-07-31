@@ -5,7 +5,7 @@ import CardProject from './CardProject';
 
 // Importing assets
 import Bioani from '../assets/projet_bioani.jpeg';
-import Zoe from '../assets/projet_bioani.jpeg'; // waiting for correct image
+import Zoe from '../assets/projet_zoe.jpeg';
 import Agrodeo from '../assets/projet_agrodeogracias.jpeg';
 import Fenel from '../assets/projet_fenel.jpeg';
 import Rabe from '../assets/projet_rabe.jpeg';
@@ -40,7 +40,7 @@ function Projects() {
                         <img
                             className="project-image"
                             src={Zoe}
-                            alt="photo de larve de mouche soldat noir" // to be change with correct image
+                            alt="photo de deux hommes tenant des boites de la marque zoe"
                         />
                     }
                 />

@@ -16,9 +16,18 @@ function Partners() {
         <section className="section-partners">
             <h2>Nos partenaires</h2>
             <div className="partners-logo">
-                <img src={Lionstech} alt="logo du partenaire lionstech" />
-                <img src={Sinergi} alt="logo du partenaire sinergi" />
-                <img src={Valleesud} alt="logo du partenaire vallée sud" />
+                <a href="https://www.lionstechinvest.sn/" target="_blank">
+                    <img src={Lionstech} alt="logo du partenaire lionstech" />
+                </a>
+                <a
+                    href="https://www.ietp.com/fr/content/a-propos"
+                    target="_blank"
+                >
+                    <img src={Sinergi} alt="logo du partenaire sinergi" />
+                </a>
+                <a href="https://www.valleesud.fr/fr" target="_blank">
+                    <img src={Valleesud} alt="logo du partenaire vallée sud" />
+                </a>
             </div>
             <Button
                 section="partners"
