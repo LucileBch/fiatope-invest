@@ -5,6 +5,8 @@ import CardTeam from './CardTeam';
 
 // Importing assets
 import Picture1 from '../assets/photo_equipe_1.jpeg';
+import PictureB from '../assets/photo_equipe_perma.jpeg';
+import PictureC from '../assets/photo_equipe_perma.jpeg';
 import Picture2 from '../assets/photo_equipe_2.jpeg';
 import Picture3 from '../assets/photo_equipe_3.jpeg';
 import Picture4 from '../assets/photo_equipe_4.jpeg';
@@ -59,7 +61,34 @@ function Team() {
                 </p>
             </div>
             <div className="team-pictures">
-                <h2>Notre équipe ?</h2>
+                <h2>Notre équipe permanente</h2>
+                <div className="pictures-people">
+                    <CardTeam
+                        image={<img src={Picture1} alt="photo d'Eric Ntonfo" />}
+                        name="Eric Ntonfo, Fondateur et manager"
+                    />
+                    <CardTeam
+                        image={
+                            <img
+                                src={PictureB}
+                                alt="photo de Léticia Allache"
+                            />
+                        }
+                        name="Léticia Allache, Chargée de relations
+                        investisseurs"
+                    />
+                    <CardTeam
+                        image={
+                            <img
+                                src={PictureC}
+                                alt="photo de Gerardine Ngankeu"
+                            />
+                        }
+                        name="Gerardine Ngankeu, Chargée d'investissements"
+                    />
+                </div>
+
+                <h2>Notre comité projets et orientations</h2>
                 <div className="pictures-people">
                     <CardTeam
                         image={<img src={Picture1} alt="photo d'Eric Ntonfo" />}
