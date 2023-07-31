@@ -13,7 +13,6 @@ function CardProject({ title, content, image, link }) {
             {image}
             <h3>{title}</h3>
             <p className="project-article-content">{content}</p>
-            {/* MISSING LINK FOR NOW */}
             <Button section="projects" label="Découvrir" href={link} />
         </article>
     );
