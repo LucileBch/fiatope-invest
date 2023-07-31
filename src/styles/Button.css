@@ -20,6 +20,10 @@
 
 .button-link-project {
     padding: 15px 40px;
+    position: absolute;
+    bottom: -2%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .button-download:hover,

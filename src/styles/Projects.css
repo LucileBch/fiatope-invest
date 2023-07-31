@@ -53,6 +53,10 @@
         height: 150px;
         top: 600px;
     }
+
+    .project-image {
+        height: 250px;
+    }
 }
 
 /* Mobile max-width 767px */
@@ -74,6 +78,7 @@
 
     .project-image {
         border-radius: 50px;
+        height: 200px;
     }
 
     .projects-background {

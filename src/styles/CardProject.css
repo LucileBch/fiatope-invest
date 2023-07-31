@@ -10,6 +10,7 @@
     border-top-right-radius: 200px;
     border-bottom-left-radius: 300px;
     border-bottom-right-radius: 300px;
+    position: relative;
 }
 
 .project-article h3 {
@@ -23,7 +24,7 @@
     font-family: 'Open Sans';
     font-size: 18px;
     text-align: center;
-    padding: 40px 40px 80px 40px;
+    margin: 10px 40px 80px 40px;
 }
 
 /* Tablet max-width 1024px */
@@ -34,7 +35,6 @@
 
     .project-article-content {
         font-size: 14px;
-        padding: 25px 25px 40px 25px;
     }
 }
 
@@ -50,7 +50,6 @@
     }
 
     .project-article-content {
-        padding: 10px 10px 20px 10px;
         width: 85%;
     }
 }
