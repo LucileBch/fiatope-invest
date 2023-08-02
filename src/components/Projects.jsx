@@ -12,6 +12,7 @@ import Rabe from '../assets/projet_rabe.jpeg';
 import Arsa from '../assets/projet_arsa.jpeg';
 import Mobility from '../assets/projet_digital_mobility.jpeg';
 import Nowell from '../assets/projet_nowell.jpeg';
+import Attieke from '../assets/projet_attieke.jpeg'
 
 // Importing Projects CSS stylesheet
 import '../styles/Projects.css';
@@ -57,6 +58,7 @@ function Projects() {
                             alt="photo de bouteilles de jus"
                         />
                     }
+                    link="https://agrodeogracias.bf/"
                 />
                 <CardProject
                     title="La maison Fenel"
@@ -119,6 +121,18 @@ function Projects() {
                         />
                     }
                     link="https://nowelli.com/"
+                />
+                <CardProject
+                    title="Attieke Okendjenou"
+                    content="Véritable héritage de l'art culinaire ivoirien, l'attiéké est un mets classé comme mets exotique. Afin de valoriser ce mets, Mireille Gninahophin à traves son entreprise ATTIEKE OKENDJENOU nous mets à la disposition de l'attiéké prêt à la consommation. Véritable innovation, découvrez avec nous ce projet."
+                    image={
+                        <img
+                            className="project-image"
+                            src={Attieke}
+                            alt="photo de mains tenant de l'attieke"
+                        />
+                    }
+                    link="https://www.okedjenou.com/tag/attieke/"
                 />
             </div>
             <div className="projects-background"></div>
